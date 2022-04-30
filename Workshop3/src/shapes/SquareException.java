@@ -1,0 +1,18 @@
+// Name: Danish Sharma
+// ID: 148201205
+// Email: dsharma115@myseneca.ca
+// Professor: Reza Khojasteh
+// Date: February 15, 2022
+// I have done all the coding by myself and only copied the code that my 
+// professor provided to complete my workshops and assignments.
+
+// Workshop 3
+
+package shapes;
+
+// Square Exception not required since RectangleException deals with throwing exception
+public class SquareException extends Exception {
+	public SquareException(String message) {
+		super(message);
+	}
+}
